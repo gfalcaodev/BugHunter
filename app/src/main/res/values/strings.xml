@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Bug Hunter</string>
+    <string name="titulo_app">Bug Hunter – Central de Bugs</string>
+
+    <!-- Formulário -->
+    <string name="hint_titulo">Título do problema</string>
+    <string name="hint_modulo">Módulo ou tela onde ocorreu</string>
+    <string name="hint_descricao">Descrição do erro (mínimo 10 caracteres)</string>
+    <string name="label_gravidade_inicial">Gravidade: 1 – Baixa</string>
+    <string name="label_gravidade">Gravidade: %1$d – %2$s</string>
+    <string name="btn_registrar">Registrar bug</string>
+
+    <!-- Validações -->
+    <string name="erro_titulo">Informe o título do problema</string>
+    <string name="erro_modulo">Informe o módulo ou a tela</string>
+    <string name="erro_descricao">A descrição precisa ter pelo menos 10 caracteres</string>
+
+    <!-- Gravidade -->
+    <string name="gravidade_baixa">Baixa</string>
+    <string name="gravidade_media">Média</string>
+    <string name="gravidade_alta">Alta/Crítica</string>
+
+    <!-- Status -->
+    <string name="status_aberto">Aberto</string>
+    <string name="status_corrigido">Corrigido</string>
+
+    <!-- Código gerado -->
+    <string name="formato_codigo" translatable="false">BUG-%1$03d</string>
+
+    <!-- Cartão -->
+    <string name="item_modulo">Módulo: %1$s</string>
+    <string name="item_gravidade">Gravidade %1$d – %2$s</string>
+
+    <!-- Painel -->
+    <string name="painel_total">Total\n%1$d</string>
+    <string name="painel_abertos">Abertos\n%1$d</string>
+    <string name="painel_corrigidos">Corrigidos\n%1$d</string>
+    <string name="painel_pontuacao">Pontos\n%1$d</string>
+
+    <!-- Mensagens -->
+    <string name="lista_vazia">Nenhum bug registrado. O sistema parece perfeito… por enquanto!</string>
+    <string name="msg_bug_registrado">%1$s registrado!</string>
+    <string name="msg_bug_removido">%1$s foi removido</string>
+
+    <!-- Acessibilidade -->
+    <string name="desc_logo">Logotipo do Bug Hunter</string>
+    <string name="desc_imagem_bug">Ícone de bug indicando a gravidade</string>
+</resources>
